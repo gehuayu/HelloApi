@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sidapp01
+  name: gavinapp01
 spec:
   selector:
     matchLabels:

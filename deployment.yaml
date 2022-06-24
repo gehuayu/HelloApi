@@ -5,15 +5,15 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: sidapp01
+      app: gavinapp01
   template:
     metadata:
       labels:
-        app: sidapp01
+        app: gavinapp01
     spec:
       containers:
-      - name: sidapp01
-        image: sbacr02.azurecr.io/sidapp01:latest
+      - name: gavinapp01
+        image: sbacr02.azurecr.io/gavinapp01:latest
         resources:
           limits:
             memory: "128Mi"
